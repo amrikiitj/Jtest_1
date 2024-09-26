@@ -6,6 +6,8 @@ pipeline {
             steps {
                 // Clone the repository
                 git 'https://github.com/amrikiitj/Jtest_1.git'
+                credentialsId: 'amrikiitj',
+                branch: 'main
             }
         }       
 

@@ -1,3 +1,3 @@
 print("hello")
 print("Checking push automatically")
-print("Checking push automatically 3!")
+print("Checking push automatically 5!")

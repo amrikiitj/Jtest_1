@@ -5,7 +5,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 // Clone the repository
-                git 'https://github.com/amrikiitj/Jtest_1.git'                
+                git branch: 'main', url: 'https://github.com/amrikiitj/Jtest_1.git'                
             }
         }       
 
@@ -13,7 +13,7 @@ pipeline {
             steps {
                 // Build your application (if needed)
                 echo 'Building application...'
-                python3 'test1.py'
+                sh 'python3 test1.py'
             }
         }
 

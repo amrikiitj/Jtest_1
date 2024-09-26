@@ -9,13 +9,13 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
+        //stage('Install Dependencies') {
+            //steps {
                 // Create a virtual environment and install dependencies
                 // sh 'python3 -m venv venv'
                 // sh './venv/bin/pip install -r requirements.txt'
-            }
-        }
+            //}
+        //}
 
         //stage('Run Tests') {
             //steps {

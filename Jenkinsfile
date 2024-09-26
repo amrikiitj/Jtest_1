@@ -17,12 +17,12 @@ pipeline {
             }
         }
 
-        stage('Run Tests') {
-            steps {
+        //stage('Run Tests') {
+            //steps {
                 // Run your tests
                 // sh './venv/bin/pytest'
-            }
-        }
+            //}
+        //}
 
         stage('Build') {
             steps {
